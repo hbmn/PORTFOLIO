@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*mainvisual*/
+.mainvisual_area {
+    height: 100vh;
+    background-image: url("bg/mainvisual.jpg");
+    background-size: cover;
+    background-position: 49% 50%;
+    position: relative;
+}
+
+.mainvisual_ttl {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(100%, 345px);
+
+}
+
+.mainvisual_ttl span {
+    font-family: 'Cormorant SC', serif;
+    font-size: min(5.33vw, 2.0rem);
+    letter-spacing: 0.2em;
+    color: #707070;
+    text-align: end;
+    display: block;
+    padding: 0 15px;
+}
+
+.mainvisual_logo {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/*mainvisual*/
+
