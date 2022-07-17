@@ -20,7 +20,7 @@
 
 .mainvisual_ttl span {
     font-family: 'Cormorant SC', serif;
-    font-size: min(5.33vw, 2.0rem);
+    font-size: min(5.33vw, 2.4rem);
     letter-spacing: 0.2em;
     color: #707070;
     text-align: end;
@@ -66,6 +66,9 @@
 .vision__txt p:first-child {
     margin-bottom: 30px;
 }
+@media(min-width:992px){
+
+}
 
 /*vision*/
 
@@ -73,138 +76,155 @@
 .section-works__wrapper {
     display: flex;
     flex-direction: column;
-    padding:0 15px;
-    gap:50px;
+    padding: 0 15px;
+    gap: 50px;
 }
 
 .works__block {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
 
 .works__block img {
     width: 100%;
 }
 
-.works__block__item{
+.works__block__item {
     width: min(100%, 500px);
     text-align: center;
     text-decoration: none;
     color: #333333;
 }
+
 /*works*/
 
 /*skill*/
-.section-skill__wrapper{
-    background-color:#f3f3f3;
-    padding:30px 15px 50px;
+.section-skill__wrapper {
+    background-color: #f3f3f3;
+    padding: 30px 15px 50px;
 }
-.skill-ttl{
+
+.skill-ttl {
     list-style: none;
-    display:flex;
-    gap:30px;
-    margin-bottom:50px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
 }
-.soft-skill{
+
+.soft-skill {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
-.skill__item{
+
+.skill__item {
     display: flex;
     flex-direction: column;
-    width:min(100%,300px);
+    width: min(100%, 300px);
 }
-.item__ttl{
+
+.item__ttl {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
-    gap:15px;
-    width:min(100%,200px);
+    gap: 15px;
+    width: min(100%, 200px);
 }
-.icon{
-    width:45px;
+
+.icon {
+    width: 45px;
 }
-.item__ttl h3{
-    font-size:2.0rem;
-    font-weight:500;
+
+.item__ttl h3 {
+    font-size: 2.0rem;
+    font-weight: 500;
 }
+
 /*skill*/
 
 /*about*/
-.section-about__wrapper{
-    padding:0 15px;
+.section-about__wrapper {
+    padding: 0 15px;
 }
 
-.about__profile{
+.about__profile {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    gap:30px;
-    margin-bottom:30px;
+    gap: 30px;
+    margin-bottom: 30px;
 }
-.profile__img{
-    width:min(100%,300px);
+
+.profile__img {
+    width: min(100%, 300px);
     object-fit: cover;
 }
-.profile__txt{
+
+.profile__txt {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:min(100%,200px);
+    width: min(100%, 200px);
 }
-.profile__name{
-    font-size:2.8rem;
-    font-weight:500;
+
+.profile__name {
+    font-size: 2.8rem;
+    font-weight: 500;
     letter-spacing: 0.2em;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-.profile__item{
+
+.profile__item {
     display: flex;
-    justify-content:flex-start;
-    gap:20px;
+    justify-content: flex-start;
+    gap: 20px;
 }
-.profile__message{
+
+.profile__message {
     text-align: center;
-    margin:0 auto 60px;
-    width:min(100%,600px);
+    margin: 0 auto 60px;
+    width: min(100%, 600px);
 }
-.profile__message p{
-    margin-bottom:20px;
+
+.profile__message p {
+    margin-bottom: 20px;
 }
-.more_btn{
-    display:block;
-    width:min(100%,150px);
+
+.more_btn {
+    display: block;
+    width: min(100%, 150px);
     border: solid 1px #333;
-    padding:8px;
+    padding: 8px;
     text-decoration: none;
-    color:#333;
+    color: #333;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
     letter-spacing: 0.2em;
     position: relative;
     transition: 0.3s;
 }
-.more_btn:hover{
-    background-color:#d88c39;
+
+.more_btn:hover {
+    background-color: #d88c39;
     transition: 0.3s;
 }
 
-.more_btn::after{
-    content:"";
+.more_btn::after {
+    content: "";
     display: block;
-    width:50px;
-    height:1px;
-    background-color:#333;
-    position:absolute;
-    top:50%;
-    right:-20px;
+    width: 50px;
+    height: 1px;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    right: -20px;
     transition: 0.3s;
 }
-.more_btn:hover:after{
+
+.more_btn:hover:after {
     transform: translateX(15px);
     transition: 0.3s;
 }
