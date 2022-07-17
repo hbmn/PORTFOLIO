@@ -50,6 +50,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width:min(100%,500px);
+    margin:0 auto;
 }
 
 .vision__ttl {
@@ -72,9 +74,11 @@
     margin-bottom: 30px;
 }
 @media(min-width:992px){
-
+    .section-vision__message{
+        flex-direction: row;
+        width:min(100%,650px);
+    }
 }
-
 /*vision*/
 
 /*works*/
