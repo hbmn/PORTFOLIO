@@ -165,6 +165,14 @@ body {
   top:50%;
   left:15px;
 }
+@media(min-width:992px){
+  .title{
+    padding-left:200px;
+  }
+  .title::after{
+    left:130px;
+  }
+}
 
 /*footer*/
 .footer{
