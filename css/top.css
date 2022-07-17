@@ -106,6 +106,22 @@
     text-decoration: none;
     color: #333333;
 }
+.works__block__item:hover{
+opacity: 0.5;
+}
+@media(min-width:992px){
+    .section-works__wrapper{
+        flex-direction: row;
+        width:min(100%,1040px);
+        margin:0 auto;
+    }
+    .works__block{
+        width:50%;
+    }
+    .works__block:last-child{
+        justify-content: center;
+    }
+}
 
 /*works*/
 
