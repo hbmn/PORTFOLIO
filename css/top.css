@@ -134,11 +134,12 @@ opacity: 0.5;
 .skill-ttl {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 20px;
     margin-bottom: 50px;
+    font-size:1.2rem;
 }
 
-.soft-skill {
+.soft-skill,.coding-skill {
     display: flex;
     flex-direction: column;
     align-items: center;
