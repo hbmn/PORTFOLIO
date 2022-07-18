@@ -138,6 +138,7 @@ opacity: 0.5;
     gap: 20px;
     margin-bottom: 50px;
     font-size:1.2rem;
+    cursor: pointer;
 }
 
 .skill__content {
