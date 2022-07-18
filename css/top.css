@@ -140,7 +140,7 @@ opacity: 0.5;
     font-size:1.2rem;
 }
 
-.soft-skill,.coding-skill,.work-skill {
+.skill-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,8 +150,9 @@ opacity: 0.5;
 .skill__item {
     display: flex;
     flex-direction: column;
-    gap:5px;
+    gap:10px;
     width: min(100%, 300px);
+    margin:0 auto;
 }
 
 .item__ttl {
@@ -159,7 +160,6 @@ opacity: 0.5;
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
-    width: min(100%, 200px);
 }
 .item__txt p:first-child{
     margin-bottom:20px;
@@ -174,6 +174,16 @@ opacity: 0.5;
 .item__ttl h3 {
     font-size: 2.0rem;
     font-weight: 500;
+}
+/*tab-change jQuery*/
+.skill-ttl li.active{
+    border-bottom: solid 3px #d88c39;
+}
+.skill-content{
+    display: none;
+}
+.skill-content.active{
+    display: flex;
 }
 
 /*skill*/
