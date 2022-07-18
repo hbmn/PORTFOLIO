@@ -109,7 +109,7 @@
 .works__block__item:hover{
 opacity: 0.5;
 }
-@media(min-width:9929px){
+@media(min-width:992px){
     .section-works__wrapper{
         flex-direction: row;
         width:min(100%,1040px);
