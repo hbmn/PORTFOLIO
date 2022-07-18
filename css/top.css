@@ -114,6 +114,7 @@ opacity: 0.5;
         flex-direction: row;
         width:min(100%,1040px);
         margin:0 auto;
+        box-sizing: border-box;
     }
     .works__block{
         width:50%;
