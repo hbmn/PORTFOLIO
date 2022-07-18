@@ -17,7 +17,7 @@
 <body>
     <header class="header">
         <div class="header__inner">
-            <a href="#"><h2>MANA HIRABAYASHI</h2></a>
+            <a href="index.html"><h2>MANA HIRABAYASHI</h2></a>
             <nav class="gnav">
                 <ul>
                     <li> <a href=""> Works</a></li>
@@ -26,7 +26,9 @@
                     <li> <a href="">Contact</a></li>
                 </ul>
             </nav>
-            <div class="hamburger-area"><span class="hamburger-btn"></span></div>
+            <div class="hamburger-area">
+                <span class="hamburger-btn"></span>
+            </div>
         </div> 
     </header>
     <main>
@@ -221,6 +223,11 @@ crossorigin="anonymous"></script>
         var idx = $(".skill__ttl li").index($(this));
         $(".skill__ttl li").removeClass("active").eq(idx).addClass("active");
         $(".skill__content").removeClass("active").eq(idx).addClass("active");
+    });
+</script>
+<script>
+    $(".hamburger-area").click(function(){
+        $(".gnav,.hamburger-btn,.header__inner h2").toggleClass("active");
     });
 </script>
 
