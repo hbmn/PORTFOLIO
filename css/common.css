@@ -25,14 +25,14 @@ body {
 .header__inner{
   display: flex;
   justify-content: space-between;
-  padding-top:8px;
+  padding:5px 4vw;/*15px*/
 }
 
 .header__inner h2{
   font-family:'Cormorant SC', serif;
-  padding-left:15px;
   font-size:1.6rem;
   color:#707070;
+  line-height:30px;
 }
 .header__inner a{
   text-decoration: none;
@@ -47,11 +47,10 @@ body {
 
 .hamburger-area{
   width:40px;
-  height:40px;
+  height:30px;
   content:"";
   display: block;
   position:relative;
-  padding-right:10px;
 }
 
 .hamburger-btn{
@@ -63,7 +62,7 @@ body {
   border-radius:5px;
   position:absolute;
   left:5px;
-  top:0;
+  top:5px;
 }
 
 .hamburger-btn::before{
@@ -90,7 +89,6 @@ body {
 @media(min-width:768px){
   .gnav{
     display: block;
-    padding-right:6.94vw;/*100px*/
   }
   .gnav ul{
     display: flex;
@@ -111,11 +109,9 @@ body {
     display: none;
   }
   .header__inner{
-    padding-top:8px;
+    padding:5px 6.94vw;/*100px*/
   }
-  .header__inner h2{
-    padding:0 0 0 6.94vw;/*100px*/
-  }
+  
 }
 /*hamburger menu*/
 
