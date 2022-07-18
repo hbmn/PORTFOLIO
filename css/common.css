@@ -37,6 +37,9 @@ body {
 .header__inner a{
   text-decoration: none;
 }
+.header.color{
+  background-color:#f3f3f399;
+}
 
 .gnav{
   display: none;
