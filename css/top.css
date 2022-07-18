@@ -109,7 +109,7 @@
 .works__block__item:hover{
 opacity: 0.5;
 }
-@media(min-width:992px){
+@media(min-width:9929px){
     .section-works__wrapper{
         flex-direction: row;
         width:min(100%,1040px);
@@ -129,10 +129,10 @@ opacity: 0.5;
 /*skill*/
 .section-skill__wrapper {
     background-color: #f3f3f3;
-    padding: 30px 15px 50px;
+    padding: 30px 30px 50px; /*30px*/
 }
 
-.skill-ttl {
+.skill__ttl {
     list-style: none;
     display: flex;
     gap: 20px;
@@ -140,7 +140,7 @@ opacity: 0.5;
     font-size:1.2rem;
 }
 
-.skill-content {
+.skill__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +151,7 @@ opacity: 0.5;
     display: flex;
     flex-direction: column;
     gap:10px;
-    width: min(100%, 300px);
+    width: min(100%, 400px);
     margin:0 auto;
 }
 
@@ -174,16 +174,31 @@ opacity: 0.5;
 .item__ttl h3 {
     font-size: 2.0rem;
     font-weight: 500;
+    line-height:1.6em;
 }
 /*tab-change jQuery*/
-.skill-ttl li.active{
+.skill__ttl li.active{
     border-bottom: solid 3px #d88c39;
 }
-.skill-content{
+.skill__content{
     display: none;
 }
-.skill-content.active{
+.skill__content.active{
     display: flex;
+}
+@media(min-width:992px){
+    .section-skill__wrapper{
+        padding: 30px 50px 50px;
+    }
+    .skill__content{
+        flex-direction: row;
+        align-items: flex-start;
+        width:min(100%,1040px);
+        margin:0 auto;
+    }
+    .skill__item{
+        width:21.39%;
+    }
 }
 
 /*skill*/

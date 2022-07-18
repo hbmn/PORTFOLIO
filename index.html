@@ -64,13 +64,13 @@
         <section class="section -skill">
             <h2 class="title">SKILL</h2>
             <div class="section-skill__wrapper">
-                <ul class="skill-ttl">
+                <ul class="skill__ttl">
                     <li class="active">使用ソフト</li>
                     <li>コーディング</li>
                     <li>仕事で得たスキル</li>
                 </ul>
                 <div class="skill__group">
-                    <div class="skill-content active">
+                    <div class="skill__content active">
                         <div class="skill__item">
                             <div class="item__ttl"><img class="icon" src="images/icons8-adobe-photoshop-100 (1).png"
                                     alt="Photoshop-icon">
@@ -99,7 +99,7 @@
                             <p class="item__txt">Illustratorでは名刺、簡単なロゴの作成ができます。やや苦手意識があります。</p>
                         </div>
                     </div>
-                    <div class="skill-content">
+                    <div class="skill__content">
                         <div class="skill__item">
                             <div class="item__ttl"><img class="icon" src="images/icons8-html-5-100.png" alt="HTML5-icon">
                                 <h3>HTML5</h3>
@@ -131,7 +131,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="skill-content">
+                    <div class="skill__content">
                         <div class="skill__item">
                             <div class="item__ttl">
                                 <h3>コミュニケーションスキル</h3>
@@ -217,10 +217,10 @@ crossorigin="anonymous"></script>
     });
 </script>
 <script>
-    $(".skill-ttl li").click(function(){
-        var idx = $(".skill-ttl li").index($(this));
-        $(".skill-ttl li").removeClass("active").eq(idx).addClass("active");
-        $(".skill-content").removeClass("active").eq(idx).addClass("active");
+    $(".skill__ttl li").click(function(){
+        var idx = $(".skill__ttl li").index($(this));
+        $(".skill__ttl li").removeClass("active").eq(idx).addClass("active");
+        $(".skill__content").removeClass("active").eq(idx).addClass("active");
     });
 </script>
 
