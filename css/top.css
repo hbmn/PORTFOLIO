@@ -5,17 +5,16 @@
     height: 100vh;
     background-image: url("bg/mainvisual.jpg");
     background-size: cover;
-    background-position: 49% 50%;
+    background-position: 50% 50%;
     position: relative;
 }
 
 .mainvisual_ttl {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     width: min(100%, 345px);
-
 }
 
 .mainvisual_ttl span {
@@ -36,6 +35,7 @@
 @media(min-width:992px) {
     .mainvisual_ttl {
         left: 75%;
+        top:30%;
     }
 }
 /*mainvisual*/
