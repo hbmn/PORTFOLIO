@@ -20,23 +20,26 @@ body {
   position:fixed;
   width:100%;
   z-index:1;
+  padding:0 15px;
+  box-sizing: border-box;
 }
 
 .header__inner{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width:min(100%,1240px);
+  margin:0 auto;
+  padding:5px 0;
 }
 
 .header__inner h2{
   font-family:'Cormorant SC', serif;
   font-size:1.6rem;
   color:#707070;
-  padding:5px 0 5px 4vw;/*15px*/
 }
 .header__inner a{
   text-decoration: none;
-  display: flex;
-  align-items: center;
 }
 .header.color{
   background-color:#f3f3f399;
@@ -48,7 +51,6 @@ body {
   content:"";
   display: block;
   position:relative;
-  padding:5px 4vw 5px 0;/*15px*/
 }
 
 .hamburger-btn{
@@ -60,7 +62,7 @@ body {
   border-radius:5px;
   position:absolute;
   left:2px;
-  top:11px;
+  top:6px;
 }
 
 .hamburger-btn::before{
@@ -91,7 +93,6 @@ body {
   .gnav ul{
     display: flex;
     gap:40px;
-    padding:5px 6.94vw 5px 0;/*100px*/
   }
   .gnav a{
     text-decoration: none;
@@ -107,10 +108,6 @@ body {
   .hamburger-area{
     display: none;
   }
-  .header__inner h2{
-    padding:5px 0 5px 6.94vw;/*100px*/
-  }
-  
 }
 /*hamburger menu*/
 
@@ -125,7 +122,9 @@ body {
     background-color: #212121cc;
     font-size:1.6rem;
     z-index: -1;
-    position: fixed;
+    position:absolute;
+    top:0;
+    left:0;
   }
   .gnav ul{
     padding:100px 30px 0;
@@ -151,7 +150,7 @@ body {
   .hamburger-btn.active{
     background-color: #fff;
     transform: rotate(45deg);
-    top: 19px;
+    top: 14px;
     
   }
   .hamburger-btn.active::before{
