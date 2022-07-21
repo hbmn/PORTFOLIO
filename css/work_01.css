@@ -1,141 +1,165 @@
 @charset "UTF-8";
 
-.work-page{
-    padding:120px 0;
-}
-.section-top{
-    margin-bottom:100px;
-    padding:0 15px;
+.work-page {
+    padding: 120px 0;
 }
 
-.top-ttl{
-    font-size:2.0rem;
-    font-weight:500;
-    text-align: center;
-    line-height:1.6;
-    margin-bottom:40px;
+.section-top {
+    margin-bottom: 100px;
+    padding: 0 15px;
 }
-.top-image__area{
-    display:flex;
+
+.top-ttl {
+    font-size: 2.0rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.top-image__area {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    width:min(100%,600px);
-    margin:0 auto 60px;
-}
-.top-image__img{
-    width:75%;
+    width: min(100%, 600px);
+    margin: 0 auto 60px;
 }
 
-.page-link{
+.top-image__img {
+    width: 75%;
+}
+
+.page-link {
     display: block;
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background-color:#d88c39;
-    position:relative;
+    background-color: #d88c39;
+    position: relative;
 }
 
-.arrow{
-    content:"";
-    width:0;
-    height:0;
+.arrow {
+    content: "";
+    width: 0;
+    height: 0;
     display: block;
     border-width: 6px;
     border-style: solid;
     border-color: transparent #fff transparent transparent;
-    position:absolute;
-    top:9px;
-    left:5px;
-}
-.page-link.right{
-    transform: rotate(180deg);
-}
-.site-url{
-    width:min(100%,350px);
-    margin:0 auto 60px;
+    position: absolute;
+    top: 9px;
+    left: 5px;
 }
 
-.url__area{
+.page-link.right {
+    transform: rotate(180deg);
+}
+
+.site-url {
+    width: min(100%, 350px);
+    margin: 0 auto 60px;
+}
+
+.url__area {
     display: flex;
     justify-content: space-between;
-    gap:40px;
-    margin-bottom:8px;
+    gap: 40px;
+    margin-bottom: 8px;
 }
+
 .url__btn {
     display: block;
-    width:50%;
-    padding:8px 5px;
+    width: 50%;
+    padding: 8px 5px;
     border: solid 1px #333;
     text-align: center;
     text-decoration: none;
-    color:#333;
-    transition: 0.3s;
-}
-.url__btn:hover{
-    background-color:#d88c39;
+    color: #333;
     transition: 0.3s;
 }
 
-.site-url span{
-    font-size:1.2rem;
+.url__btn:hover {
+    background-color: #d88c39;
+    transition: 0.3s;
 }
-.description{
+
+.site-url span {
+    font-size: 1.2rem;
+}
+
+.description {
     text-align: left;
-    width:min(100%,500px);
-    margin:0 auto 60px;
-}
-.description__item{
-    display:flex;
-    margin-bottom:10px;
-}
-.description__item th{
-    width:35%;
-    flex-shrink: 0;
-    font-weight:500;
+    width: min(100%, 500px);
+    margin: 0 auto 60px;
 }
 
-.lighthouse__report{
+.description__item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.description__item th {
+    width: 35%;
+    flex-shrink: 0;
+    font-weight: 500;
+}
+
+.lighthouse__report {
     display: flex;
     flex-direction: column;
-    gap:10px;
-    width:min(100%,600px);
-    margin:0 auto 100px;
-}
-.lighthouse__ttl{
-    font-weight:500;
-    font-size:2.0rem;
-    line-height:1.6;
-}
-.section-explanation{
-    width:min(100%,600px);
-    margin:0 auto 150px;
-    padding:0 15px;
-    box-sizing: border-box;
-}
-.explanation__ttl{
-    font-size:2.4rem;
-    font-weight:500;
-    margin-bottom:20px;
-}
-.section-explanation.planning img{
-    width:min(100%,600px);
-}
-.planning__link{
-    margin-bottom:60px;
+    gap: 10px;
+    width: min(100%, 600px);
+    margin: 0 auto 100px;
 }
 
-.planning__link a{
-    color:#333;
+.lighthouse__ttl {
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 1.6;
 }
-.planning h4{
-    font-size:2.0rem;
-    font-weight:500;
-    margin-bottom:10px;
+
+.section-explanation {
+    margin: 0 auto;
+    padding: 0 15px;
 }
-.explanation__items{
-    margin-bottom:40px;
-    padding-left:15px;
+
+.explanation__planning,
+.explanation__design,
+.explanation__coding,
+.explanation__comment {
+    width: min(100%, 600px);
+    margin: 0 auto 150px;
 }
-.explanation__items li{
-    margin-bottom:10px;
+
+.explanation__ttl {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.explanation__planning img {
+    width: min(100%, 600px);
+}
+
+.planning__link {
+    margin-bottom: 60px;
+}
+
+.planning__link a {
+    color: #333;
+}
+
+.planning h4 {
+    font-size: 2.0rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.explanation__items {
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+
+.explanation__items li {
+    margin-bottom: 10px;
 }
