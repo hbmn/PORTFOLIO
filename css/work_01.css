@@ -79,3 +79,31 @@
 .site-url span{
     font-size:1.2rem;
 }
+.description{
+    text-align: left;
+    width:min(100%,500px);
+    margin:0 auto 60px;
+}
+.description__item{
+    display:flex;
+    margin-bottom:10px;
+}
+.description__item th{
+    width:35%;
+    flex-shrink: 0;
+    font-weight:500;
+}
+
+.lighthouse__report{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:min(100%,600px);
+    margin:0 auto 100px;
+}
+.lighthouse__ttl{
+    font-weight:500;
+    font-size:2.0rem;
+    line-height:1.6;
+}
+
