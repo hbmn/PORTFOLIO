@@ -69,7 +69,7 @@
 
 .url__btn {
     display: block;
-    width: 50%;
+    width:min(50%,180px);
     padding: 8px 5px;
     border: solid 1px #333;
     text-align: center;
@@ -85,6 +85,34 @@
 
 .site-url span {
     font-size: 1.2rem;
+}
+@media(min-width:992px){
+    .top-image__area{
+        width: min(100%, 1040px);
+    }
+    .none{
+        display: none;
+    }
+    .top-ttl {
+        font-size:2.4rem;
+    }
+    .page-link {
+        width:50px;
+        height:50px;
+    }
+    .arrow {
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent #fff transparent transparent;
+        position: absolute;
+        top: 15px;
+        left: 8px;
+    }
+
+    .site-url {
+        width: min(100%, 500px);
+        margin: 0 auto 60px;
+    }
 }
 
 .description {
