@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .work-page {
-    padding: 120px 0;
+    padding: 120px 0 0;
 }
 
 .section-top {
@@ -162,4 +162,34 @@
 
 .explanation__items li {
     margin-bottom: 10px;
+}
+.explanation__txt{
+    margin-bottom: 30px;
+    padding-left:15px;
+    position:relative;
+    line-height:1.7;
+}
+.explanation__txt::before{
+    content:"";
+    display: block;
+    width:4px;
+    height:4px;
+    border-radius: 10px;
+    background-color:#333;
+    position:absolute;
+    top:8.5px;
+    left:3px;
+}
+.explanation__txt a{
+    font-size:1.2rem;
+    color:#333;
+}
+
+.explanation-img__area{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:60px;
+}
+.explanation-img__area img{
+    width:min(48%,260px);
 }
