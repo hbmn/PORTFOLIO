@@ -137,3 +137,64 @@
     font-weight: 500;
 }
 
+.section-explanation {
+    padding: 0 15px;
+}
+
+.explanation__planning,
+.explanation__design,
+.explanation__coding,
+.explanation__comment {
+    width: min(100%, 600px);
+    margin: 0 auto 150px;
+}
+
+.explanation__ttl {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.planning__link {
+    margin-bottom: 60px;
+}
+
+.planning__link a {
+    color: #333;
+}
+
+.explanation__planning h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.explanation__items {
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+
+.explanation__items li {
+    margin-bottom: 10px;
+}
+.explanation__txt{
+    margin-bottom: 30px;
+    padding-left:15px;
+    position:relative;
+    line-height:1.7;
+}
+.explanation__txt::before{
+    content:"";
+    display: block;
+    width:4px;
+    height:4px;
+    border-radius: 10px;
+    background-color:#333;
+    position:absolute;
+    top:8.5px;
+    left:3px;
+}
+.explanation__txt a{
+    font-size:1.2rem;
+    color:#333;
+}
