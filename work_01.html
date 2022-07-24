@@ -36,7 +36,7 @@
     <main class="work-page">
         <h2 class="title">WORKS</h2>
         <section class="section-top">
-            <h3 class="top-ttl">BISTRO PETIT A PETIT<br class="none"> 
+            <h3 class="top-ttl">BISTRO PETIT A PETIT<br class="none">
                 Webサイトリニューアル</h3>
             <div class="top-image__area">
                 <div><a class="page-link left" href=""><span class="arrow"></span></a></div>
@@ -192,28 +192,26 @@
                     PETITのオーナーに完成したWebサイトをお見せすると、「半年間でここまでのクオリティのサイトを作れるようになったんだね、綺麗に作ってくれてありがとう。」とご感想をいただきました。
                 </p>
             </div>
-        </section>
     </main>
     <footer class="footer">
         <small class="footer__copylight">&copy;MANA HIRABAYASHI</small>
     </footer>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script> 
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <script>
-        $(window).scroll(function(){
+        $(window).scroll(function () {
             console.log($(this).scrollTop());
-            if($(this).scrollTop()>100){
+            if ($(this).scrollTop() > 100) {
                 $(".header").addClass("color");
-            }else{$(".header").removeClass("color");}
+            } else { $(".header").removeClass("color"); }
         });
     </script>
     <script>
-        $(".hamburger-area").click(function(){
+        $(".hamburger-area").click(function () {
             $(".gnav,.hamburger-btn,.header__inner h2").toggleClass("active");
         });
     </script>
 </body>
+
 </html>
