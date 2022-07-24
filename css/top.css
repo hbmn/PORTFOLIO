@@ -259,10 +259,20 @@
     margin-bottom: 20px;
 }
 
+.profile__contents {
+    width: 100%;
+}
+
 .profile__item {
     display: flex;
     justify-content: flex-start;
-    gap: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.profile__item th {
+    font-weight: 500;
+    width: 50%;
 }
 
 .profile__message {
