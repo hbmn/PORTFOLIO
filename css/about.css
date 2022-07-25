@@ -8,7 +8,7 @@
     flex-direction: column-reverse;
     align-items: center;
     gap: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .profile__img {
@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items:center;
+    width:min(100%,450px);
 }
 
 .profile__name {
@@ -29,7 +30,7 @@
     margin-bottom: 20px;
 }
 .profile__contens{
-    width:min(100%,300px);
+    width:100%;
     text-align: left;
 }
 
@@ -42,6 +43,40 @@
 
 .profile__item th{
     flex-shrink: 0;
-    width:30%;
+    width:25%;
     font-weight:500;
+}
+
+.section-history{
+    margin-bottom:150px;
+}
+.history__contents{
+    padding-left:15px;
+}
+.history__item{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    margin:0 auto 40px;
+    width:min(100%,450px);
+    position: relative;
+    line-height:1.8;
+}
+
+.history__item::before{
+    content:"";
+    display: block;
+    width:6px;
+    height:6px;
+    border-radius: 50%;
+    background-color:#d88c39;
+    position: absolute;
+    top:9px;
+    left:-12px;
+}
+
+.history__item img{
+    width:min(100%,200px);
 }
