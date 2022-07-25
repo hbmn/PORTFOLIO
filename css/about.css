@@ -80,3 +80,49 @@
 .history__item img{
     width:min(100%,200px);
 }
+
+.section-sns{
+    margin-bottom:150px;
+}
+.sns__message{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    margin-bottom:60px;
+}
+.sns__message img{
+    border-radius: 50%;
+    width:min(100%,150px);
+}
+.sns__message span{
+    text-align: center;
+    position: relative;
+}
+.sns__message span::before{
+    display: block;
+    content:"";
+    position: absolute;
+    width:1px;
+    height:36px;
+    background-color:#333;
+    transform: rotate(-30deg);
+    left:-20px;
+    bottom:0;
+}
+.sns__message span::after{
+    display: block;
+    content:"";
+    position: absolute;
+    width:1px;
+    height:36px;
+    background-color:#333;
+    transform: rotate(30deg);
+    right:-15px;
+    bottom:0;
+}
+
+.twitter-area{
+    width:min(100%,500px);
+    margin:0 auto;
+}
