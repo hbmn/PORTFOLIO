@@ -206,11 +206,20 @@ body {
 
 /*footer*/
 .footer{
-  background-color:#f3f3f3;
+  background-color:#e6e3d2;
+  height:70px;
+  padding:15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .footer__copylight{
-  display: block;
-  padding:60px 15px 5px;
+  display:flex;
+  gap:5px;
   font-size:1.2rem;
-  text-align: center;
+  align-items:center;
+}
+.footer__copylight img{
+  width:15px;
+  object-fit: cover;
 }
