@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: min(100%, 600px);
+    width: min(100%, 640px);
     margin: 0 auto 60px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .site-url {
-    width: min(100%, 350px);
+    width: min(100%, 340px);
     margin: 0 auto 60px;
 }
 
@@ -110,14 +110,14 @@
     }
 
     .site-url {
-        width: min(100%, 500px);
+        width: min(100%, 540px);
         margin: 0 auto 60px;
     }
 }
 
 .description {
     text-align: left;
-    width: min(100%, 600px);
+    width: min(100%, 640px);
     margin: 0 auto 60px;
 }
 
@@ -136,7 +136,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: min(100%, 600px);
+    width: min(100%, 640px);
     margin: 0 auto 100px;
 }
 
@@ -155,7 +155,7 @@
 .explanation__design,
 .explanation__coding,
 .explanation__comment {
-    width: min(100%, 600px);
+    width: min(100%, 640px);
     margin: 0 auto 150px;
 }
 
@@ -166,7 +166,7 @@
 }
 
 .explanation__planning img {
-    width: min(100%, 600px);
+    width: min(100%, 640px);
 }
 
 .planning__link {

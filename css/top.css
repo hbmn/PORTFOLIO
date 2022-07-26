@@ -55,8 +55,8 @@
 .section-vision__message {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: min(100%, 500px);
+    gap: 30px;
+    width: min(100%, 600px);
     margin: 0 auto;
 }
 
@@ -66,6 +66,7 @@
     font-weight: 400;
     color: #d88c39;
     letter-spacing: 0.2em;
+    padding-top:5px;
 }
 
 .vision__txt {
@@ -83,7 +84,8 @@
 @media(min-width:992px) {
     .section-vision__message {
         flex-direction: row;
-        width: min(100%, 650px);
+        gap:60px;
+        width: min(100%, 740px);
     }
 }
 
@@ -278,7 +280,7 @@
 .profile__message {
     text-align: center;
     margin: 0 auto 60px;
-    width: min(100%, 600px);
+    width: min(100%, 640px);
 }
 
 .profile__message p {
