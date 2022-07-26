@@ -58,7 +58,22 @@
         <small class="footer__copylight"><img src="images/copylight_icon.png" alt="コピーライト"> <span>MANA
                 HIRABAYASHI</span> </small>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
+<script>
+    $(window).scroll(function () {
+        console.log($(this).scrollTop());
+        if ($(this).scrollTop() > 100) {
+            $(".header").addClass("color");
+        } else { $(".header").removeClass("color"); }
+    });
+</script>
+<script>
+    $(".hamburger-area").click(function () {
+        $(".gnav,.hamburger-btn,.header__inner h2").toggleClass("active");
+    });
+</script>
 </body>
 
 </html>
