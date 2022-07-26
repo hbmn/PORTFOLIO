@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.contact-page {
+    padding: 120px 15px 0;
+}
+
+.form__area {
+    background-color: #fff;
+    width: min(100%, 630px);
+    margin: 0 auto 150px;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+.form__message {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin:0 auto 30px;
+    width:min(100%,550px);
+}
+
+.form__item input,
+.form__item textarea {
+    border-radius: 4px;
+    border: none;
+    outline: solid 1px #aaa;
+    padding: 12px 8px;
+    display: block;
+}
+
+.form__btn {
+    background: #333;
+    letter-spacing: 0.2em;
+    width: 100px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    display: block;
+    margin:0 auto;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.form__btn:hover {
+    background: #d88c39;
+}

@@ -33,22 +33,22 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="contact-page">
         <h2 class="title">CONTACT</h2>
         <div class="form__area">
-            <p>何かご質問などございましたら、お気軽にご連絡ください。お待ちしております。</p>
-            <form class="form" method="post" action="">
-                <div>
-                    <label>お名前</label>
-                    <input type="text" name="お名前" placeholder="必須" required>
+            <p class="form__message">ご質問などございましたら、お気軽にご連絡ください。 お待ちしております。</p>
+            <form class="form" method="post" action="https://hyperform.jp/api/TYYpgLei">
+                <div class="form__item">
+                    <label for="name">お名前</label>
+                    <input id="name" type="text" name="お名前" placeholder="必須" required>
                 </div>
-                <div>
-                    <label>メールアドレス</label>
-                    <input type="email" name="email" placeholder="必須" required>
+                <div class="form__item">
+                    <label for="email">メールアドレス</label>
+                    <input id="email" type="email" name="email" placeholder="必須" required>
                 </div>
-                <div>
-                    <label>お問い合わせ内容</label>
-                    <textarea name="お問い合わせ内容" required></textarea>
+                <div class="form__item">
+                    <label for="text">お問い合わせ内容</label>
+                    <textarea id="text" name="お問い合わせ内容" required></textarea>
                 </div>
                 <button class="form__btn" type="submit">送信</button>
             </form>
