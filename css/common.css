@@ -201,6 +201,9 @@ body p{
 @media(min-width:992px){
   .title{
     padding-left:200px;
+    width:min(100%,1500px);
+    margin:0 auto 80px;
+    box-sizing: border-box;
   }
   .title::after{
     left:130px;
