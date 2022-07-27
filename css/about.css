@@ -81,13 +81,13 @@
 .history__item::before{
     content:"";
     display: block;
-    width:9px;
-    height:9px;
+    width:4px;
+    height:4px;
     border-radius: 50%;
-    background-color:#d88c39;
+    background-color:#333;
     position: absolute;
-    top:9px;
-    left:-16px;
+    top:12px;
+    left:-10px;
 }
 
 .history__item img{
@@ -103,9 +103,6 @@
         justify-content: left;
         align-items:flex-start;
         gap:40px;
-    }
-    .history__item::before{
-    left:-20px;
     }
 }
 
