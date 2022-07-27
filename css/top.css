@@ -18,7 +18,7 @@
 }
 
 .mainvisual_ttl span {
-    font-family: 'Cormorant SC', serif;
+    font-family: 'Halant', serif;
     font-size: min(5.33vw, 2.4rem);
     letter-spacing: 0.2em;
     color: #707070;
@@ -61,7 +61,7 @@
 }
 
 .vision__ttl {
-    font-family: 'Cormorant SC', serif;
+    font-family: 'Halant', serif;
     font-size: 3.2rem;
     font-weight: 400;
     color: #d88c39;
