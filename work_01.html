@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/work_01.css">
+    <link rel="stylesheet" href="prism/prism.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap" rel="stylesheet">
@@ -22,9 +23,9 @@
             </a>
             <nav class="gnav">
                 <ul>
-                    <li><a href=""> Works</a></li>
-                    <li><a href="">Skill</a> </li>
-                    <li><a href=""> About</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Skill</a></li>
+                    <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
@@ -36,8 +37,7 @@
     <main class="work-page">
         <h2 class="title">WORKS</h2>
         <section class="section-top">
-            <h3 class="top-ttl">BISTRO PETIT A PETIT<br class="none">
-                Webサイトリニューアル</h3>
+            <h3 class="top-ttl">BISTRO PETIT A PETIT Webサイト</h3>
             <div class="top-image__area">
                 <div><a class="page-link left" href=""><span class="arrow"></span></a></div>
                 <img class="top-image__img" src="images/mockup_01.png" alt="iMac,iPad,iPhone画面のモックアップ画像">
@@ -53,7 +53,7 @@
             <table class="description">
                 <tr class="description__item">
                     <th>フロント技術</th>
-                    <td>HTML / CSS / Java script / jQuery</td>
+                    <td>HTML / CSS / Javascript / jQuery</td>
                 </tr>
                 <tr class="description__item">
                     <th>命名規則</th>
@@ -81,7 +81,7 @@
                 </tr>
             </table>
             <div class="lighthouse__report">
-                <h3 class="lighthouse__ttl">Lighthouse Report viewer<br class="none">Topページ</h3>
+                <h3 class="lighthouse__ttl">Lighthouse Report viewer<br class="none"> Topページ</h3>
                 <img src="images/Light_house_work_01.png" alt="LightHouseのレポート画像">
                 <p>レンタルサーバーはさくらインターネットです。今回は卒業制作のためSEO対策のmetaタグは入力しませんでした。
                     サイズの大きい画像はwebpに変換し、読み込みパフォーマンスを向上させました。
@@ -92,7 +92,11 @@
             <div class="explanation__planning">
                 <h3 class="explanation__ttl">企画内容</h3>
                 <img src="images/work_01_plan-img.png" alt="企画書の画像">
-                <div class="planning__link"><a href="">企画書を見る</a></div>
+                <div class="planning__link"><a href="PDF/卒業制作 企画書.pdf" target="_blank">企画書を見る</a></div>
+                <h4>背景</h4>
+                <ul class="explanation__items">
+                    <li>卒業制作として作成。実在する店舗の仮想リニューアル。</li>
+                </ul>
                 <h4>目的</h4>
                 <div class="explanation__content">
                     <ul class="explanation__items">
@@ -103,8 +107,8 @@
                     <h4>ターゲット</h4>
                     <ul class="explanation__items">
                         <li>お店の前をよく通り、存在は知っているがまだ来店したことがない人。</li>
-                        <li>地元の人</li>
-                        <li>祝いの席で利用できるお店を探している人</li>
+                        <li>地元の人。</li>
+                        <li>祝いの席で利用できるお店を探している人。</li>
                     </ul>
                     <h4>コンセプト</h4>
                     <ul class="explanation__items">
@@ -117,88 +121,101 @@
                 <h3 class="explanation__ttl">デザインについて</h3>
                 <div class="explanation__content">
                     <p class="explanation__txt">
-                        シェフが1人営業のため、来店時・予約時の注意事項を細かく記載しています。日々のお知らせはtwitterとブログを活用されているため、そちらを埋め込み、Webサイト自体の更新はなるべくしなくてもいいような構成にしました。
+                        料理の写真を目立たせたいため、メインカラーの赤の使用範囲に気をつけ、サイト全体でなるべく重たく感じないように調整しました。<br>赤はお店の内装カラー、タイトルの赤茶はテーブル、背景のベージュは壁や店内の雰囲気を表現しています。
                     </p>
                     <p class="explanation__txt">
-                        料理の写真を1番に目立たせたいため、メインカラーの赤の使用範囲に気をつけました。hoverしたら色が変わるようにしたりと、サイト全体でなるべく重たく感じないようにしました。<br>赤はお店の内装カラー、タイトルの赤茶はテーブル、bgのベージュは壁や店内の雰囲気を表現しています。
-                    </p>
-                    <p class="explanation__txt">
-                        カジュアルで明るいデザインながらも、フレンチならではの上品さも取り入れたかったため、フォントはヒラギノ明朝を使用しました。トップページの「PETIT A
-                        PETITへようこそ」のタイトルはNotoSerif JPを使用し、差別化しています。
+                        カジュアルで明るいデザインながらも、フレンチならではの上品さも取り入れたかったため、フォントはヒラギノ明朝を使用しました。
                     </p>
                     <p class="explanation__txt">
                         トップページの構成は、「ご挨拶 → 料理のこだわり →
-                        お知らせ」となっており、<br>ご挨拶セクションには店舗情報ページへ、料理のこだわりセクションにはメニューページへと、ユーザーの知りたいページへ誘導できるように設計を考慮しセクションごとにリンクボタンを設置しました。
+                        お知らせ」となっており、<br>ご挨拶セクションには店舗情報ページへ、料理のこだわりセクションにはメニューページへと、詳細ページへ誘導できるようにセクションごとにリンクボタンを設置しました。
                     </p>
                 </div>
             </div>
             <div class="explanation__coding">
                 <h3 class="explanation__ttl">コーディングについて</h3>
                 <p class="explanation__txt">
-                    各ページ タイトルのfont-sizeはスマホでのサイズを基準としたvwで実装。
-                    clampを使用し最大値はpcサイズに設定、ブレークポイントでサイズがいきなり切り替わる挙動がないようにレスポンシブ実装をしました。
+                    各ページ タイトルのフォントサイズはスマホでのサイズを基準としたvwで実装し、閲覧するデバイスごとに最適なサイズになるようレスポンシブ実装をしました。
                 </p>
                 <p class="explanation__txt">
-                    SP/PCのみのデザインカンプでしたが、タブレットと2000pxの大画面で見た時も考慮して最終調整しました。
+                    当初SP/PCのみのデザインカンプでしたが、タブレットと2000pxの大画面で見た時も考慮しCSSを調整しました。
                 </p>
                 <p class="explanation__txt">
-                    カンプ通りになるよう、各セクションwidthを揃えてズレがないよう意識しコーディングしました。paddingをつけたい要素にそのまま実装するとbox-sizingの挙動でカンプ通りの幅にならないことを学び、外側をdivで包んだところに実装する方法をとりました。
+                    カンプ通りになるよう、各セクションの幅を揃えてズレがないようピクセルパーフェクトを意識しコーディングしました。
                 </p>
                 <p class="explanation__txt">
-                    INFORMATIONページのGoogleMapは16:9のアスペクト比を常に保つようにpadding-ハックで実装しました。
+                    INFORMATIONページのGoogleMapは、どのデバイスで閲覧しても常に16:9の比率を保つよう実装しました。
                 </p>
                 <div class="explanation__content">
                     <p class="explanation__txt">
                         アルコールメニューリストはflexを入れ子にして組み合わせ、ユーザーが見やすいように整った実装を心掛けました。<br>
-                        <a href="">(http://hirabayashi-pta.x0.to/drink.html)</a><br>
+                        <a
+                            href="http://hirabayashi-pta.x0.to/drink.html">(http://hirabayashi-pta.x0.to/drink.html)</a><br>
                         特にワインリストはテキスト量が多いため飲食店サイトをたくさん見て、良いレイアウトを参考にしました。
                     </p>
-                    <div class="explanation-img__area"><img src="images/work_01_alcohol_list.png" alt="アルコールメニューリスト1部抜粋"
-                            width="200">
-                        <img src="images/work_01_alcohol_source-code.png" alt="アルコールメニューリストのソースコード1部抜粋" width="200">
+                    <div class="explanation-source-code"><img src="images/work_01_alcohol_list.png"
+                            alt="アルコールメニューリスト1部抜粋">
+                        <!--prism.js----------->
+                        <pre>
+                            <code class="language-html">
+&lt;div class=&quot;alcohol__under-red&quot;&gt;
+&lt;h3&gt;赤ワイン&lt;/h3&gt;
+&lt;div class=&quot;alcohol__under-items&quot;&gt;
+&lt;div class=&quot;item-h&quot;&gt; ル・タン・デ・ジタン&lt;br&gt;
+&lt;span&gt;(カリニャン)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;item-r&quot;&gt; &lt;span&gt;・グラス &lt;/span&gt; &lt;span&gt;¥680&lt;/span&gt; &lt;/div&gt;
+&lt;div class=&quot;item-r&quot;&gt; &lt;span&gt;・カラフェ &lt;/span&gt; &lt;span&gt;¥2,400&lt;/span&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;alcohol__under-items&quot;&gt;
+&lt;div class=&quot;item-h&quot;&gt; ドメーヌ・ド・ムージャン&lt;br&gt;
+&lt;span&gt;(メルロー、カリニャン、カベルネソーヴィニヨン、グルナッシュ、シラー)&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;item-r&quot;&gt; &lt;span&gt;・グラス &lt;/span&gt; &lt;span&gt;¥680&lt;/span&gt; &lt;/div&gt;
+&lt;div class=&quot;item-r&quot;&gt; &lt;span&gt;・カラフェ &lt;/span&gt; &lt;span&gt;¥2,400&lt;/span&gt; &lt;/div&gt;
+&lt;div class=&quot;item-r&quot;&gt; &lt;span&gt;・フル&lt;/span&gt; &lt;span&gt;¥3,300&lt;/span&gt; &lt;/div&gt;
+&lt;/div&gt;
+                            </code>
+                        </pre>
                     </div>
+                    <!--prism.js----------->
                 </div>
                 <div class="explanation__content">
                     <p class="explanation__txt">
-                        ハンバーガーメニューが開いたら店名テキストの透過率が下がってしまうため、ハンバーガーボタンのjQuery
-                        toggleClassが当たると同時にテキストの文字が白になるよう記述を加えました。<br>
-                        今回 実装の際、z-indexのスタッキングコンテキストの仕組みを知ることができました。
-                    </p>
+                        ハンバーガーメニューが開くと店名テキストの透過率が下がってしまうため、要素の重なり順を調整した後、
+                        jQueryが当たるとメニューが開き、同時にテキストの文字を白にする記述を加えました。
                     <div class="explanation-img__area"><img src="images/work_01_hamburger.jpg"
-                            alt="BISTRO PETIT A PETIT スマホサイト トップページ" width="200">
-                        <img src="images/work_01_hamburger-open.jpg" alt="BISTRO PETIT A PETIT スマホサイト ハンバーガーメニュー"
-                            width="200">
+                            alt="BISTRO PETIT A PETIT スマホサイト トップページ">
+                        <img src="images/work_01_hamburger-open.jpg" alt="BISTRO PETIT A PETIT スマホサイト ハンバーガーメニュー">
                     </div>
                 </div>
-                <p class="explanation__txt">
-                    ファーストビューのswiperプラグインはフェード&ズームアウトアニメーションをオプションで追記しました。その他jQueryの記述は内容をひとつずつ理解し、コピペせず記述しました。
-                </p>
-                <p class="explanation__txt">
-                    コーディング実装を早めに終わらせることができ、制作締め切りに余裕を持って取り組めました。そのお陰でバリデーターチェック・ブラウザチェックにてレイアウト崩れなどを発見でき、しっかり修正を行うことができました。
-                </p>
-                <p class="explanation__txt">
-                    反省点は同じCSSが当たる箇所には共通のclassを振り当てるなど、サイトの更新や運用考慮した記述ができれば、なお良かったと思います。今後はCSS設計を学び、実務に活かせる効率のよい記述をしていきたいです。
-                </p>
             </div>
             <div class="explanation__comment">
                 <h3 class="explanation__ttl">コメント</h3>
                 <p class="explanation__txt">
-                    全体で1番難しかった部分はトップページとメニューページのデザインでした。
-                    コーディングは2週間かからず ひと通り実装できましたが、デザインに関しては3週間ほどかかりました。
-                    写真も自分で撮影したのですが、レタッチの仕上がりになかなか納得いかず、何度もやり直しました。
+                    苦戦した部分はトップページとメニューページのデザインでした。
+                    今回写真も自分で撮影したのですが、レタッチの仕上がりに納得いかず、何度もやり直しました。
                 </p>
                 <p class="explanation__txt">
-                    今回Webサイトを作るにあたりクライアント役としてご協力いただいたBISTRO PETIT A
+                    コーディングを早めに終わらせ、制作締め切りに余裕を持って取り組めました。そのお陰でバリデーターチェック・ブラウザチェックにてレイアウト崩れなどを発見でき、しっかり修正を行うことができました。
+                </p>
+                <p class="explanation__txt">
+                    反省点は同じCSSが当たる箇所には共通のclassを振り当てるなど、サイトの更新や運用考慮した記述ができれば、なお良かったと思います。今後はCSS設計を学び、実務に活かせる効率のよい記述をしていきたいです。
+                </p>
+                <p class="explanation__txt">
+                    今回卒業制作のクライアント役としてご協力いただいたBISTRO PETIT A
                     PETITのオーナーに完成したWebサイトをお見せすると、「半年間でここまでのクオリティのサイトを作れるようになったんだね、綺麗に作ってくれてありがとう。」とご感想をいただきました。
                 </p>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <small class="footer__copylight"><img src="images/copylight_icon.png" alt="コピーライト"> <span>MANA HIRABAYASHI</span> </small>
+        <small class="footer__copylight"><img src="images/copylight_icon.png" alt="コピーライト"> <span>MANA
+                HIRABAYASHI</span> </small>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="prism/prism.js"></script>
 
     <script>
         $(window).scroll(function () {

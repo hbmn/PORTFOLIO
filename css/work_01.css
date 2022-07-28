@@ -163,6 +163,8 @@
     font-size: 2.4rem;
     font-weight: 500;
     margin-bottom: 40px;
+    padding-bottom: 8px;
+    border-bottom: #333 solid 1px;
 }
 
 .explanation__planning img {
@@ -213,11 +215,18 @@
     color:#333;
 }
 
-.explanation-img__area{
-    display: flex;
-    justify-content: space-between;
+.explanation-source-code{
     margin-bottom:60px;
+    text-align: center;
+}
+.explanation-source-code img{
+    width:min(100%,340px);
+    margin:0 auto 40px;
+}
+.explanation-img__area{
+    display:flex;
+    justify-content: space-between;
 }
 .explanation-img__area img{
-    width:min(48%,260px);
+    width:min(48%,280px);
 }
