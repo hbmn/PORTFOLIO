@@ -37,10 +37,9 @@ body p{
 }
 
 .header__inner h2{
-  font-family: 'Halant', serif;
+  font-family:'Cormorant SC', serif;
   font-size:1.6rem;
   color:#707070;
-  letter-spacing: 0.15em;
 }
 .header__inner a{
   text-decoration: none;
@@ -102,9 +101,8 @@ body p{
     text-decoration: none;
     color:#707070;
     transition: 0.3s;
-    font-family: 'Halant', serif;
+    font-family: 'Cormorant SC', serif;
     font-size:1.6rem;
-    text-transform: uppercase;
   }
   .gnav a:hover{
     color:#d88c39;
@@ -141,8 +139,7 @@ body p{
   .gnav a{
     text-decoration: none;
     color:#fff;
-    font-family: 'Halant', serif;
-    text-transform: uppercase;
+    font-family: 'Cormorant SC', serif;
   }
 
   /*hamburger jQuery*/
@@ -183,7 +180,7 @@ body p{
 }
 
 .title{
-  font-family: 'Halant', serif;
+  font-family:'Cormorant SC', serif;
   color:#707070;
   font-size:3.2rem;
   padding-left:80px;
