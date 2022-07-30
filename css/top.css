@@ -186,6 +186,9 @@
 .item__txt span {
     color: #d88c39;
 }
+.item__txt a{
+    color:#333;
+}
 
 .icon {
     width: 45px;
