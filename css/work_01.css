@@ -100,6 +100,9 @@
         width:50px;
         height:50px;
     }
+    .page-link:hover{
+        opacity: 0.5;
+    }
     .arrow {
         border-width: 10px;
         border-style: solid;
@@ -108,7 +111,6 @@
         top: 15px;
         left: 8px;
     }
-
     .site-url {
         width: min(100%, 540px);
         margin: 0 auto 60px;
