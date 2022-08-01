@@ -35,7 +35,7 @@
 }
 
 .form__btn {
-    background: #333;
+    background: #707070;
     letter-spacing: 0.2em;
     width: 100px;
     padding: 10px;
@@ -49,5 +49,5 @@
 }
 
 .form__btn:hover {
-    background: #d88c39;
+    background: #d3b26d;
 }

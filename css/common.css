@@ -101,13 +101,12 @@ body p{
   .gnav a{
     text-decoration: none;
     color:#707070;
-    transition: 0.3s;
     font-family: 'Halant', serif;
     font-size:1.6rem;
     text-transform:uppercase;
   }
   .gnav a:hover{
-    color:#d88c39;
+    color:#d3b26d;
     transition: 0.3s;
   }
   .hamburger-area{

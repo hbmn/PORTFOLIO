@@ -116,7 +116,7 @@
     font-family: 'Halant', serif;
     font-size: 3.2rem;
     font-weight: 400;
-    color: #d88c39;
+    color: #d3b26d;
     letter-spacing: 0.2em;
     padding-top:5px;
 }
@@ -242,7 +242,7 @@
 }
 
 .item__txt span {
-    color: #d88c39;
+    color: #d3b26d;
 }
 .item__txt a{
     color:#333;
@@ -260,7 +260,7 @@
 
 /*tab-change jQuery*/
 .skill__ttl li.active {
-    border-bottom: solid 3px #d88c39;
+    border-bottom: solid 3px #d3b26d;
 }
 
 .skill__content {
@@ -362,10 +362,6 @@
     transition: 0.3s;
 }
 
-.more_btn:hover {
-    background-color: #d88c39;
-    transition: 0.3s;
-}
 
 .more_btn::after {
     content: "";
