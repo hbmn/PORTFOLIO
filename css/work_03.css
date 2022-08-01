@@ -98,7 +98,7 @@
     .page-link:hover{
         opacity: 0.5;
     }
-    
+
     .arrow {
         border-width: 10px;
         border-style: solid;
@@ -129,6 +129,20 @@
     flex-shrink: 0;
     font-weight: 500;
 }
+.lighthouse__report {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: min(100%, 640px);
+    margin: 0 auto 100px;
+}
+
+.lighthouse__ttl {
+    font-weight: 500;
+    font-size: 2.0rem;
+    line-height: 1.6;
+}
+
 .section-explanation {
     margin: 0 auto;
     padding: 0 15px;
