@@ -242,7 +242,7 @@
 }
 
 .item__txt span {
-    color: #d3b26d;
+    background-color: #d3b26d4d;
 }
 .item__txt a{
     color:#333;
