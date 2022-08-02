@@ -4,7 +4,9 @@ html {
   font-size: 62.5%; /* 16px * 62.5% = 10px */
   width: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
 body {
   color: #333333; /* RGB */
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
@@ -228,4 +230,40 @@ body p{
 .footer__copylight img{
   width:14px;
   object-fit: contain;
+}
+.scroll-top{
+  position: relative;
+  display:block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  bottom:30px;
+  right:15px;
+  font-family:'Halant', serif;
+  color:#333;
+  text-align: right;
+  border-radius: 50px;
+}
+.scroll-top::after{
+position: absolute;
+top:-10px;
+right:10px;
+content:"";
+display: block;
+width:10px;
+height:10px;
+border-top:solid 1px #333;
+border-right:solid 1px #333;
+transform: rotate(-45deg);
+transition: 0.3s;
+}
+.scroll-top:hover::after{
+  top:-15px;
+  transition: 0.3s;
+}
+
+@media(min-width:992px){
+  .scroll-top{
+    right:50px;
+  }
+
 }
