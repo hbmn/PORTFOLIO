@@ -281,7 +281,11 @@
     <!--Luxy.js-->
     <script charset="utf-8">
         window.onload = function () {
-            luxy.init();
+            luxy.init({
+                wrapper: '#luxy',
+    targets : '.luxy-el',
+    wrapperSpeed: 1
+        });
         }
     </script>
     <!--ページ内アンカーリンクスクロール記述-->
