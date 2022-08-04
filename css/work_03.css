@@ -60,25 +60,28 @@
     width: min(100%, 340px);
     margin: 0 auto 60px;
 }
+.site-url span{
+    font-size: 1.0rem;
+    display: block;
+}
 
 .url__area {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .url__btn {
     display: block;
-    width:min(50%,180px);
+    width:min(100%,170px);
     padding: 8px 5px;
     text-align: center;
     text-decoration: none;
     color: #333;
     background-color: #eee;
     transition: 0.3s;
-    border-radius: 30px;
-    box-shadow: #70707033 0.5px 2px 5px 1px;
+    box-shadow: #d2d2d2 2px 2px;
 }
 
 .url__btn:hover {
@@ -122,6 +125,10 @@
     .site-url {
         width: min(100%, 540px);
         margin: 0 auto 60px;
+    }
+    .url__btn{
+        width:min(100%,200px);
+        padding: 10px 5px;
     }
 }
 .description {
@@ -189,19 +196,7 @@
     margin-bottom: 10px;
 }
 .explanation__txt{
-    margin-bottom: 30px;
-    padding-left:15px;
+    margin-bottom: 40px;
     position:relative;
     line-height:2;
-}
-.explanation__txt::before{
-    content:"";
-    display: block;
-    width:4px;
-    height:4px;
-    border-radius: 10px;
-    background-color:#333;
-    position:absolute;
-    top:11px;
-    left:3px;
 }
