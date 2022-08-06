@@ -263,9 +263,14 @@
             $(".skill__content").removeClass("active").eq(idx).addClass("active");
         });
     </script>
+
+    <!--hamburger-->
     <script>
         $(".hamburger-area").click(function () {
             $(".gnav,.hamburger-btn,.header__inner h2").toggleClass("active");
+        });
+        $('a[href="#works"],a[href="#skill"]').click(function () {
+            $(".gnav,.hamburger-btn,.header__inner h2").removeClass("active");
         });
     </script>
 
