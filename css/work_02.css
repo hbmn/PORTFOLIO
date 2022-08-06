@@ -153,6 +153,8 @@
     font-size: 2.4rem;
     font-weight: 500;
     margin-bottom: 40px;
+    padding-bottom: 8px;
+    border-bottom: #333 solid 1px;
 }
 
 .planning__link {
@@ -197,4 +199,7 @@
 .explanation__txt a{
     font-size:1.2rem;
     color:#333;
+}
+.explanation__content img{
+    width:min(100%,640px);
 }

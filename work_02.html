@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/work_02.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,9 +22,9 @@
             </a>
             <nav class="gnav">
                 <ul>
-                    <li><a href=""> Works</a></li>
-                    <li><a href="">Skill</a> </li>
-                    <li><a href=""> About</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Skill</a></li>
+                    <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
@@ -44,7 +44,7 @@
             </div>
             <div class="site-url">
                 <div class="url__area">
-                    <a class="url__btn" href="">Webサイト</a>
+                    <a class="url__btn" href="中間課題_s220111/index.html">Webサイト</a>
                     <a class="url__btn" href="">GitHub</a>
                 </div>
             </div>
@@ -78,6 +78,10 @@
         <section class="section-explanation">
             <div class="explanation__planning">
                 <h3 class="explanation__ttl">企画内容</h3>
+                <h4>背景</h4>
+                <ul class="explanation__items">
+                    <li>中間課題作品。架空ブランドのLP。</li>
+                </ul>
                 <h4>目的</h4>
                 <div class="explanation__content">
                     <ul class="explanation__items">
@@ -89,7 +93,7 @@
                         <li>成長期の子供がいるママ。</li>
                         <li>働き盛りの夫にもまだまだ元気でいてほしいと思っている妻。</li>
                         <li>健康志向、食生活にこだわっている方。</li>
-                        <li>食にお金を掛けられる、なるべく安心安全な物を食べたい方。</li>
+                        <li>食にお金を掛けられ、なるべく安心安全な物を食べたい方。</li>
                     </ul>
                     <h4>コンセプト</h4>
                     <ul class="explanation__items">
@@ -101,44 +105,47 @@
                 <h3 class="explanation__ttl">デザインについて</h3>
                 <div class="explanation__content">
                     <p class="explanation__txt">
-                        オプションでお試しセットの内容例や、料理レシピの紹介を組み込みました。セットが手元に届いてからどんな料理ができるのかをユーザーに想像させ、購入に繋げる狙いで構成しました。
+                        セットが手元に届いてからどんな料理ができるのかをユーザーに想像させ、購入に繋げる狙いで構成を工夫し、お試しセットの内容例や、料理レシピの紹介をオプションで組み込みました。
                     </p>
                     <p class="explanation__txt">
                         メインビジュアル下のバナーは、このサイトがどんなキャンペーンをしているのかを一目見て分かりやすくする → そのまま購入ページへ進めるようにと設置しました。バナーは自作しました。
                     </p>
                     <p class="explanation__txt">
-                        新鮮さ、安心感を表現するため、畑の水やりの写真や野菜を持った子供の手の写真を入れました。サイトのアクセントカラーは緑や黄色をベースに明るい色を使用しています。
+                        新鮮さ、安心感を表現するため、畑の写真や野菜を持った子供の手の写真を入れました。サイトのアクセントカラーは緑や黄色をベースに明るい色を使用しています。
+                    </p>
+                    <p class="explanation__txt">
+                        「ご注文はこちら」ボタンの使いやすさにこだわりました。ユーザーが押しやすく、ページ内で目立つボタンになるよう心掛けました。
                     </p>
                 </div>
             </div>
             <div class="explanation__coding">
                 <h3 class="explanation__ttl">コーディングについて</h3>
                 <p class="explanation__txt">
-                    ファーストビューの h1タイトルはfont-sizeをvwで実装し、レスポンシブ対応にしています。
-                    さらにタイトルの改行をsp、tabは3行、pc992px以上で2行となるようメディアクエリで切り替えました。
+                    ファーストビューの「こだわり農家の朝どれ〜」タイトルはvwで実装し、閲覧するデバイスごとに最適なサイズになるようレスポンシブ実装をしました。
+                    SP/TBではタイトルが3行に改行するようにしています。
                 </p>
                 <p class="explanation__txt">
-                    今回ブレークポイントは768px、992pxの2つを、各セクションに合わせて最適な方を採用しています。例として「スグ食べが選ばれる3つの理由」のセクションは画面が縮小するとテキストが崩れてしまうため早めの切り替え992pxで組みました。
+                    今回ブレークポイントは768px、992pxの2つを、各セクションに合わせて最適な方を採用しています。
                 </p>
-                <p class="explanation__txt">
-                    position:absoluteで配置する際はレスポンシブで画面が縮小された際に前後のテキストに重ならないよう調整しながら実装しました。(下記画像:画面幅820px)
-                </p>
-                <p class="explanation__txt">
-                    よくある質問の
-                    Q.は擬似要素で配置し、SPサイズでタイトルが折り返しになった際に行頭が揃うように実装しました。paddingはvwにしているのでメディアクエリを入れなくてもレスポンシブ対応になっています。
-                </p>
+                <div class="explanation__content">
+                    <p class="explanation__txt">
+                        position:absoluteで配置する際は画面幅が狭いデバイスでも前後のテキストに要素が重ならないよう調整しながら実装しました。(下記画像:画面幅820px)
+                    </p>
+                    <img src="images/work_02_img.png" alt="すぐ食べ リード文のセクション画像">
+                </div>
             </div>
             <div class="explanation__comment">
                 <h3 class="explanation__ttl">コメント</h3>
                 <p class="explanation__txt">
                     今回LPを作成してみて、どうやってユーザーをコンバージョンへ導くかを考慮することが難しかったです。ユーザーの気持ちになって客観的に作成しました。
-                    ユーザーへの説得や共感をデザインや構成で表現することでサイト全体にストーリー性が生まれるところが普通のWebサイトと違って面白く、奥深く感じました。
+                    LPはユーザーへの説得や共感をデザインや構成で表現することで全体にストーリー性が生まれるところが普通のWebサイトと違って面白く、奥深く感じました。
                 </p>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <small class="footer__copylight"><img src="images/copylight_icon.png" alt="コピーライト"> <span>MANA HIRABAYASHI</span> </small>
+        <small class="footer__copylight"><img src="images/copylight_icon.png" alt="コピーライト"> <span>MANA
+                HIRABAYASHI</span> </small>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
