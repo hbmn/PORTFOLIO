@@ -68,14 +68,6 @@
 /*PC*/
 @media(min-width:992px) {
     .mainvisual_area {
-<<<<<<< HEAD
-        background-position: 50% 50%;
-    }
-
-    .mainvisual_ttl {
-        left: 80%;
-        top: 25%;
-=======
         background-position: 50% 30%;
         height:130vh;
     }
@@ -90,7 +82,6 @@
         width:min(100%,400px);
         top:50vh;
         right:-50px;
->>>>>>> 6ec0dd7 (Fix mainvisual,Add parallax Luxy.js)
     }
 
 }
@@ -116,7 +107,7 @@
     font-family: 'Halant', serif;
     font-size: 3.2rem;
     font-weight: 400;
-    color: #d3b26d;
+    color: #d88c39;
     letter-spacing: 0.2em;
     padding-top:5px;
 }
@@ -260,7 +251,7 @@
 
 /*tab-change jQuery*/
 .skill__ttl li.active {
-    border-bottom: solid 3px #d3b26d;
+    border-bottom: solid 3px #d88c39;
 }
 
 .skill__content {
@@ -367,6 +358,10 @@
     transition: 0.3s;
 }
 
+.more_btn:hover {
+    background-color: #d88c39;
+    transition: 0.3s;
+}
 
 .more_btn::after {
     content: "";
