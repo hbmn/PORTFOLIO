@@ -358,10 +358,6 @@
     transition: 0.3s;
 }
 
-.more_btn:hover {
-    background-color: #d88c39;
-    transition: 0.3s;
-}
 
 .more_btn::after {
     content: "";
