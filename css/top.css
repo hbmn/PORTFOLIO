@@ -107,7 +107,7 @@
     font-family: 'Halant', serif;
     font-size: 3.2rem;
     font-weight: 400;
-    color: #d88c39;
+    color: #d3b26d;
     letter-spacing: 0.2em;
     padding-top:5px;
 }
@@ -199,7 +199,7 @@
 .skill__ttl {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     width: min(100%, 450px);
     margin: 0 auto 50px;
     font-size: 1.2rem;
@@ -232,15 +232,8 @@
     margin-bottom: 20px;
 }
 
-.item__txt span {
-    background-color: #d3b26d4d;
-}
-.item__txt a{
-    color:#333;
-}
-
 .icon {
-    width: 45px;
+    width: 40px;
 }
 
 .item__ttl h3 {
@@ -251,7 +244,7 @@
 
 /*tab-change jQuery*/
 .skill__ttl li.active {
-    border-bottom: solid 3px #d88c39;
+    border-bottom: solid 3px #d3b26d;
 }
 
 .skill__content {
@@ -282,15 +275,13 @@
 /*skill*/
 
 /*about*/
-.section-about__wrapper {
-    padding: 0 15px;
-}
 
 .about__profile {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    padding: 0 15px;
 }
 
 .profile__img {
@@ -303,7 +294,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: min(100%, 200px);
+    width: min(100%, 180px);
 }
 
 .profile__name {
@@ -329,18 +320,59 @@
     width: 50%;
 }
 
-.profile__message {
+.strength{
+    margin-bottom:40px;
     text-align: center;
-    margin: 0 auto 60px;
-    width: min(100%, 640px);
+    background-color:#f3f3f3;
+    padding:40px 15px 80px;
+}
+.strength__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+    width:min(100%,640px);
+    margin:0 auto;
+}
+.strength__message{
+    margin-bottom:30px;
+    font-size:2.0rem;
+}
+.strength__item{
+    margin: 0 auto;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    background-color: #d3b26d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.profile__message p {
-    margin-bottom: 20px;
+.strength__item::after{
+    content:"";
+    display: block;
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left:2px;
+    border:solid 1px #707070;
 }
+.strength__item h3{
+    font-size:1.2rem;
+    font-weight:500;
+    padding:0 5px;
+
+}
+
 .btn_area{
     display: flex;
     justify-content: center;
+    margin-bottom:40px;
+
 
 }
 
@@ -376,9 +408,20 @@
     transform: translateX(10px);
     transition: 0.3s;
 }
+.message {
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom:40px;
+}
+
+.message p {
+    margin-bottom: 20px;
+    width: min(100%, 640px);
+    margin: 0 auto;
+}
 
 @media(min-width:992px) {
-    .about__profile {
-        margin-bottom: 50px;
+    .strength__items{
+        flex-direction: row;
     }
 }
