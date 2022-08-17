@@ -51,3 +51,15 @@
 .form__btn:hover {
     background: #d3b26d;
 }
+.privacy-policy{
+    margin:0 auto 30px;
+    width:min(100%,550px);
+}
+.privacy-policy__title{
+    font-size:1.0rem;
+}
+
+.privacy-policy__message{
+    font-size:1.0rem;
+}
+
