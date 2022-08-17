@@ -287,7 +287,7 @@
 }
 
 .profile__img {
-    width: min(100%, 300px);
+    width: min(100%, 280px);
     object-fit: cover;
     margin-bottom:30px;
 }
