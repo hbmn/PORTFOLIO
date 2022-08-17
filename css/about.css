@@ -51,6 +51,11 @@
         justify-content: space-between;
         width:min(100%,840px);
     }
+    .profile__img {
+        width: min(100%, 300px);
+        object-fit: cover;
+        margin-bottom:0px;
+    }
     .profile__txt{
         align-items: flex-start;
     }
@@ -105,6 +110,9 @@
 }
 .strength__txt span{
     background-color:#d3b26d4d;
+}
+.strength__link{
+    color:#333;
 }
 
 @media(min-width:992px){
