@@ -165,38 +165,39 @@
             <section class="section -about">
                 <h2 class="title">ABOUT</h2>
                 <div class="profile">
-                <div class="profile__body">
-                    <div class="profile__txt">
-                        <h3 class="profile__name">平林 真奈</h3>
-                        <table class="profile__contents">
-                            <tr class="profile__item">
-                                <th>生年月日</th>
-                                <td>1993.4.15</td>
-                            </tr>
-                            <tr class="profile__item">
-                                <th>血液型</th>
-                                <td>A型</td>
-                            </tr>
-                            <tr class="profile__item">
-                                <th>出身地</th>
-                                <td>東京都</td>
-                            </tr>
-                        </table>
+                    <div class="profile__body">
+                        <div class="profile__txt">
+                            <h3 class="profile__name">平林 真奈</h3>
+                            <table class="profile__contents">
+                                <tr class="profile__item">
+                                    <th>生年月日</th>
+                                    <td>1993.4.15</td>
+                                </tr>
+                                <tr class="profile__item">
+                                    <th>血液型</th>
+                                    <td>A型</td>
+                                </tr>
+                                <tr class="profile__item">
+                                    <th>出身地</th>
+                                    <td>東京都</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <img class="profile__img" src="images/about_img.jpg" alt="平林真奈">
                     </div>
-                    <img class="profile__img" src="images/about_img.jpg" alt="平林真奈">
                 </div>
-            </div>
                 <div class="message">
                     <p>
                         Webサイトが目に見えて形になっていく制作過程がとても楽しく、もっとコーディングがしたい! と夢中になりました。
                         そして新たな知識を得て出来るようになることが増えていくと、自分自身の成長を実感でき、やりがいを感じました。
                     </p>
-                    <p> 
+                    <p>
                         今後はWebコーダーとして、<br>自らが手掛けるサイトを通じてホスピタリティを提供していきたいです。
                     </p>
                 </div>
                 <div class="strength">
-                    <h4 class="strength__title"><span class="strength__title-main">STRENGTH</span><span class="strength__title-sub">私の強み</span></h4>
+                    <h4 class="strength__title"><span class="strength__title-main">STRENGTH</span><span
+                            class="strength__title-sub">私の強み</span></h4>
                     <div class="strength__items">
                         <div class="strength__item">
                             <h3>コミュニケーションスキル</h3>
@@ -228,6 +229,7 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="/js/luxy.js" charset="utf-8"></script>
 
+    <!--header-bg-->
     <script>
         $(window).scroll(function () {
             console.log($(this).scrollTop());
@@ -236,6 +238,8 @@
             } else { $(".header").removeClass("color"); }
         });
     </script>
+
+    <!--section-skill Tab-change-->
     <script>
         $(".skill__ttl li").click(function () {
             var idx = $(".skill__ttl li").index($(this));

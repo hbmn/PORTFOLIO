@@ -137,7 +137,8 @@
             </div>
         </section>
         <!--ページ前後link-->
-        <div class="under-link"><a class="under-link__btn prev" href="work_01.html">Prev</a><a class="under-link__btn next" href="work_03.html">Next</a></div>
+        <div class="under-link"><a class="under-link__btn prev" href="work_01.html">Prev</a><a
+                class="under-link__btn next" href="work_03.html">Next</a></div>
     </main>
     <!--scroll-top-->
     <div class="scroll-top__area"><a class="scroll-top__btn" href="#">TOP</a></div>
@@ -147,7 +148,7 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
+    <!--header-bg-->
     <script>
         $(window).scroll(function () {
             console.log($(this).scrollTop());
@@ -156,6 +157,8 @@
             } else { $(".header").removeClass("color"); }
         });
     </script>
+
+    <!--hamburger-->
     <script>
         $(".hamburger-area").click(function () {
             $(".gnav,.hamburger-btn,.header__inner h2").toggleClass("active");

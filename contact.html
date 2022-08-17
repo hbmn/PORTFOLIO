@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +39,7 @@
         <h2 class="title">CONTACT</h2>
         <p class="form__message">ポートフォリオサイトをご覧いただきありがとうございます。<br>ご質問などございましたら、お気軽にご連絡ください。 お待ちしております。</p>
         <div class="form__area">
-            
+
             <form class="form" method="post" action="https://hyperform.jp/api/TYYpgLei">
                 <div class="form__item">
                     <label for="name">お名前</label>
@@ -55,8 +55,8 @@
                 </div>
                 <div class="privacy-policy">
                     <h3 class="privacy-policy__title">個人情報の取り扱いについて</h3>
-                <p class="privacy-policy__message">ご入力いただいた個人情報につきましては、紛失や漏洩が発生しないよう厳重に管理いたします。<br>
-                    第三者に開示または提供することはございません。</p>
+                    <p class="privacy-policy__message">ご入力いただいた個人情報につきましては、紛失や漏洩が発生しないよう厳重に管理いたします。<br>
+                        第三者に開示または提供することはございません。</p>
                 </div>
                 <button class="form__btn" type="submit">送信</button>
             </form>
@@ -69,21 +69,23 @@
                 HIRABAYASHI</span> </small>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!--header-bg-->
+    <script>
+        $(window).scroll(function () {
+            console.log($(this).scrollTop());
+            if ($(this).scrollTop() > 100) {
+                $(".header").addClass("color");
+            } else { $(".header").removeClass("color"); }
+        });
+    </script>
 
-<script>
-    $(window).scroll(function () {
-        console.log($(this).scrollTop());
-        if ($(this).scrollTop() > 100) {
-            $(".header").addClass("color");
-        } else { $(".header").removeClass("color"); }
-    });
-</script>
-<script>
-    $(".hamburger-area").click(function () {
-        $(".gnav,.hamburger-btn,.header__inner h2").toggleClass("active");
-    });
-</script>
+    <!--hamburger-->
+    <script>
+        $(".hamburger-area").click(function () {
+            $(".gnav,.hamburger-btn,.header__inner h2").toggleClass("active");
+        });
+    </script>
 </body>
 
 </html>
