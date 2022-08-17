@@ -60,12 +60,17 @@
 
 .site-url {
     margin: 0 auto 60px;
+    display: flex;
+    flex-direction: column;
 }
 
-.site-url span {
+.site-url__txt{
     font-size: 1.0rem;
-    display: block;
+    display: inline-block;
     text-align: center;
+}
+.site-url__txt span{
+    margin:0 5px;
 }
 
 
@@ -73,7 +78,7 @@
     display: flex;
     justify-content: center;
     gap: 120px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 
