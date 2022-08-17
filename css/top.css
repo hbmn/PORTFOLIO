@@ -275,13 +275,15 @@
 /*skill*/
 
 /*about*/
+.profile{
+    padding:0 15px;
+}
 
-.about__profile {
+.profile__body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin-bottom: 60px;
-    padding: 0 15px;
+    margin-bottom:60px;
 }
 
 .profile__img {
@@ -293,7 +295,6 @@
 .profile__txt {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: min(100%, 180px);
 }
 
@@ -319,12 +320,21 @@
     font-weight: 500;
     width: 50%;
 }
+.message {
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom:60px;
+}
+
+.message p {
+    width: min(100%, 640px);
+    margin: 0 auto 30px;
+}
 
 .strength{
-    margin-bottom:40px;
     text-align: center;
     background-color:#f3f3f3;
-    padding:40px 15px 80px;
+    padding:60px 15px 80px;
 }
 .strength__items{
     display: flex;
@@ -332,11 +342,21 @@
     align-items: center;
     gap:25px;
     width:min(100%,640px);
-    margin:0 auto;
+    margin:0 auto 60px;
 }
-.strength__message{
+.strength__title{
     margin-bottom:30px;
-    font-size:2.0rem;
+    display: flex;
+    flex-direction: column;
+    font-weight:500;
+    letter-spacing: 0.2em;
+}
+.strength__title-main{
+    font-size:2.8rem;
+    color:#707070;
+    font-family: 'Halant', serif;
+    margin-bottom:10px;
+
 }
 .strength__item{
     margin: 0 auto;
@@ -371,8 +391,6 @@
 .btn_area{
     display: flex;
     justify-content: center;
-    margin-bottom:40px;
-
 
 }
 
@@ -408,19 +426,20 @@
     transform: translateX(10px);
     transition: 0.3s;
 }
-.message {
-    text-align: center;
-    padding: 0 15px;
-    margin-bottom:40px;
-}
 
-.message p {
-    margin-bottom: 20px;
-    width: min(100%, 640px);
-    margin: 0 auto;
-}
-
-@media(min-width:992px) {
+@media(min-width:768px) {
+    .profile__body{
+        flex-direction: row-reverse;
+        justify-content:center;
+        margin:0 auto 60px;
+        align-items: flex-start;
+    }
+    .profile__img{
+        margin: 0 60px 0 0;
+    }
+    .profile__txt{
+        margin-top:40px;
+    }
     .strength__items{
         flex-direction: row;
     }
