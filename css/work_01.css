@@ -77,7 +77,7 @@
 .url__area {
     display: flex;
     justify-content: center;
-    gap: 120px;
+    gap: 60px;
     margin-bottom: 15px;
 }
 
@@ -140,6 +140,9 @@
         border-width: 10px;
         top: 15px;
         left: 22px;
+    }
+    .url__area {
+        gap: 100px;
     }
 }
 
